@@ -1,0 +1,18 @@
+{
+    "name": "Manager",
+    "alias": "manager",
+    "description": "Modules Manager",
+    "keywords": [],
+    "active": 1,
+    "order": 3,
+    "protected": true,
+    "providers": [
+        "Pingpong\\Cms\\Manager\\Providers\\ManagerServiceProvider",
+        "Pingpong\\Cms\\Manager\\Providers\\RouteServiceProvider"
+    ],
+    "aliases":{},
+    "files": [
+        "start.php",
+        "menus.php"
+    ]
+}
