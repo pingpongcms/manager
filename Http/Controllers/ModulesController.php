@@ -1,4 +1,6 @@
-<?php namespace Pingpong\Cms\Manager\Http\Controllers;
+<?php
+
+namespace Pingpong\Cms\Manager\Http\Controllers;
 
 use Pingpong\Modules\Repository;
 use Pingpong\Modules\Routing\Controller;
@@ -12,6 +14,7 @@ class ModulesController extends Controller
 
     /**
      * ModulesController constructor.
+     *
      * @param Repository $modules
      */
     public function __construct(Repository $modules)
@@ -58,5 +61,4 @@ class ModulesController extends Controller
 
         return redirect()->back();
     }
-
 }
